@@ -11,8 +11,8 @@
  make sure to instal flask 
  and flask sql lachemy
  1.first when we run the app.py module we will get the link nd have follow it,it will take u over the main page 
- which consists 3 active links egister ,login and contact us
- the first main pae output :
+ which consists 3 active links Register ,login and contact us 
+ ##the first main page output :
 ![a1](https://user-images.githubusercontent.com/110092063/200916547-a6560fa6-ffba-4682-b154-143120e9bec7.PNG)
 #database 
 to create the project database, open terminal

@@ -1,0 +1,54 @@
+{% extends 'layout/base.html' %}
+<!--shortcut=>(Fextends)-->
+
+{% block body %}
+<div class="container">
+    <div class="row form-row">
+        <div class="col-md-4">
+            <h1 class="my-4 text-primary text-center">Sign In Account</h1>
+            <form class="shadow-lg p-3 rounded bg-light" method="post">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="exp@gmail.com"
+                        aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    {% if 'email' in errors %}
+                    <div id="emailHelp" class="form-text text-danger">{{errors['email']}}</div>
+                    {% endif %}
+                    
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password"
+                        placeholder="your password" aria-describedby="pwdhelp">
+                        {% if 'password' in errors %}
+                        <div id="pwdHelp" class="form-text text-danger">{{errors['password']}}</div>
+                        {% endif %}
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+{% block css %}
+<style>
+    .form-row {
+        
+        display: flex;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        background-color: rgb(42, 165, 132);
+        background-image: url(https://t3.ftcdn.net/jpg/03/20/33/10/240_F_320331058_kWeMA4tx4icLReZ78Cz5Lse5D6A09gJk.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+
+    }
+</style>
+{% endblock %}

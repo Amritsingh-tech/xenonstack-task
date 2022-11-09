@@ -37,4 +37,4 @@ the output register page:
 ![Capture4](https://user-images.githubusercontent.com/110092063/200919081-9891695d-6bc1-4df7-8380-ac2e21d7806b.PNG)
 6.there is the contact us page ,u can fill the details like name ,email,subject and message .after submission ,team will coordinate with u,there is also company's mail and phone number u can directly contact us
 ![Capture5](https://user-images.githubusercontent.com/110092063/200919454-d4f6d51d-6207-4a8f-8c64-44ea0b12b84c.PNG)
-7.can access the submitted data in ur database
+7.can access the submitted data in ur database of table user and contact
